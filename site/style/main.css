@@ -20,7 +20,7 @@ main{
 header{
     width:100%;
     max-width: 1920px;
-    height: 100vh;
+    min-height: 100vh;
     display:flex;
     justify-content: space-between;
     align-items: center;
