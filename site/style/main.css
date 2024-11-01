@@ -89,9 +89,18 @@ header > section > div > img{
     justify-content: end;
     align-items:flex-end;
 }
-strong > p {
+header > section > div > strong{
+    margin-top:25px;
+    display:flex;
+    width:100%;
+    max-width:500px;
+    flex-wrap:wrap;
+}
+header > section > div > strong > p {
+    margin-right:2%;
     color:gray;
 }
-strong > p > span{
+header > section > div > strong > p > span{
     color:#3CA7DB;
+    font-size:30px;
 }
