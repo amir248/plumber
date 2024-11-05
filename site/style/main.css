@@ -388,3 +388,19 @@ article{
     color:white;
     background-color: #3CA7DB;
 }
+.map{
+    width:100%;
+    min-height:500px;
+}
+footer{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    width:100%;
+    max-width:1920px;
+    min-height:50px;
+    background-color: #0391D3;
+    flex-wrap: wrap;
+    color:white;
+    text-shadow: 1px 1px black;
+}
