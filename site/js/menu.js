@@ -2,7 +2,7 @@ const stateOfSite={};
 stateOfSite.click=+0;
 document.querySelector('main > header > nav > div').addEventListener('click',()=>{
     stateOfSite.click++;
-    console.log('^_^');
+    // console.log('^_^');
     if(stateOfSite.click==0||stateOfSite.click==1){
         let firstMenu=document.createElement('div');
         firstMenu.classList.add('firstMenu');
@@ -24,12 +24,12 @@ document.querySelector('main > header > nav > div').addEventListener('click',()=
         document.querySelector('main').prepend(firstMenu);
     }
     document.querySelector('.firstMenu').addEventListener('click',()=>{
-        console.log('click!!!!');
+        // console.log('click!!!!');
         closeThisMenu();
         stateOfSite.click=0;
     });
     if(stateOfSite.click==2){
-        console.log('not undefined');
+        // console.log('not undefined');
         // firstMenu.style.cssText=`
         //     height:0;
         // `;
