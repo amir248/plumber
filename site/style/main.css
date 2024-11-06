@@ -254,9 +254,15 @@ article{
 .width1920 > div > div{
     width:285px;
     height:190px;
-    background-color: aquamarine;
+    background-color: #0391D3;
     margin-right:15px;
     margin-bottom:15px;
+    font-size: 50px;
+    text-shadow: 1px 1px black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .width1210{
     width:100%;
